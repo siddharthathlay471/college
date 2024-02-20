@@ -3,18 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect to College Website</title>
+    <title>Dayanand Sagar University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ADFF2F;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .college-image {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Our College Website Redirect Page</h1>
-    <p>Click the button below to visit our college website:</p>
-    <button onclick="redirectToCollegeWebsite()">Visit College Website</button>
+    <header>
+        <h1><b>Dayanand Sagar University</b> </h1>
+    </header>
 
-    <script>
-        function redirectToCollegeWebsite() {
-            // Replace the URL below with the URL of your college website
-            window.location.href = "https://www.dsu.edu.in/";
-        }
-    </script>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Programs</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="college-image">
+        <img src="images\abe.png"  length="100" width="700">
+    </div>
+
+    <main>
+        <h2>Welcome to Dayanand Sagar University</h2>
+        <p>We are thrilled to have you visit our website! Whether you are a prospective student, current student, faculty member, or alumni, we hope you find the information you need and discover the vibrant community that makes our college special..</p>
+        <p>Explore our programs, learn about our faculty, discover campus life, and stay updated with the latest news and events. Our college is committed to excellence in education, research, and community engagement, and we look forward to sharing our journey with you. </p>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 My College</p>
+    </footer>
 </body>
 </html>
